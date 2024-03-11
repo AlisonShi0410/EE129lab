@@ -1,0 +1,18 @@
+Write miss: addr:0x9876abca     data:0x349823ab
+Write miss: addr:0x973234a0     data:0xaf874522
+Write miss: addr:0x345abcf0     data:0x34231209
+Read miss : addr:0x34541290     data:Unavailable
+Read Hit  : addr:0x9876abca     data:0x349823ab
+Write Hit : addr:0x9876abca     data:0x349823ac
+Read Hit  : addr:0x9876abca     data:0x349823ac
+Write Hit : addr:0x9876abce     data:0x11110000
+Write miss: addr:0x9876aaca     data:0x86764378
+Read Hit  : addr:0x9876abce     data:0x11110000
+Write miss: addr:0x9876a0ca     data:0x87687659
+
+Read Hits (HitRate): 3 (75%)
+Read Misses (MissRate): 1 (25%)
+Write Hits (HitRate): 2 (29%)
+Write Misses (MissRate): 5 (71%)
+Overall Hit Rate: 45%
+Overall Miss Rate: 55%
